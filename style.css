@@ -1,0 +1,97 @@
+/*
+Повесить якорные ссылки на меню в хедере
+*/
+
+.page {
+    width: 100%;
+/*    max-width: 1280px;*/
+
+    background-color: #13603d;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    max-width: 1180px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 16px auto 0;
+
+    border: 1px solid red;
+}
+
+.header__logo {
+    width: 100%;
+    max-width: 137px;
+    min-height: 72px;
+
+    border: 1px solid red;
+}
+
+.header__links {}
+
+.header__links-list {
+    width: 100%;
+    max-width: 625px;
+
+    display: flex;
+    gap: 24px;
+
+    list-style-type: none;
+
+    border: 1px solid red;
+}
+
+.header__links-list-item {}
+
+.header__link {
+    color: #FDFDFD;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+}
+
+
+/* BUTTON */
+
+.button {
+    width: 100%;
+
+/*    display: block;*/
+
+    color: #FDFDFD;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+/*    letter-spacing: 0.192px;*/
+
+    text-decoration: none;
+
+    margin: 0;
+
+    border-radius: 4px;
+    background-color: #1A3E3E;
+}
+
+.button:hover {
+    color: #1A3E3E;
+    background-color: #FDFDFD;
+    border: 1px solid #1A3E3E;
+}
+
+.button_size_normal {
+    max-width: 157px;
+    padding: 12px 19px;
+}
+
+.button_size_big {
+    max-width: 181px;
+    padding: 16px 36px;
+}
+
