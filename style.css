@@ -1,5 +1,5 @@
 /*
-Повесить якорные ссылки на меню в хедере
+в мозиле появляется дефолтный значок календаря
 */
 
 .page {
@@ -21,8 +21,6 @@
     align-items: center;
 
     margin: 16px auto 0;
-
-/*    z-index: 1;*/
 }
 
 .header__logo {
@@ -87,8 +85,6 @@
     border-radius: 4px;
     border: none;
     background-color: #1A3E3E;
-
-    transition: background-color 0.3s linear;
 }
 
 .button:hover {
@@ -226,6 +222,10 @@
     padding: 0 16px;
 }
 
+.form__item:hover {
+    cursor: pointer;
+}
+
 .form__item_type_select {
     appearance: none;
 
@@ -248,6 +248,33 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
+    opacity: 1;
+}
+
+.form__item_type_date::-webkit-input-placeholder {
+    color: #FDFDFD;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    opacity: 1;
+}
+
+.form__item_type_date::-moz-placeholder {
+    color: #FDFDFD;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    opacity: 1;
+}
+.form__item_type_date::-ms-input-placeholder {
+    color: #FDFDFD;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    opacity: 1;
 }
 
 .form__item_type_date::-webkit-calendar-picker-indicator {
