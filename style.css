@@ -4,9 +4,11 @@
 
 .page {
     width: 100%;
-/*    max-width: 1280px;*/
+    max-width: 1280px;
 
-    background-color: #13603d;
+    margin: 0 auto;
+
+/*    border: 1px dotted green;*/
 }
 
 /* HEADER */
@@ -16,34 +18,31 @@
     max-width: 1180px;
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     margin: 16px auto 0;
 
-    border: 1px solid red;
+/*    z-index: 1;*/
 }
 
 .header__logo {
     width: 100%;
     max-width: 137px;
     min-height: 72px;
-
-    border: 1px solid red;
 }
 
-.header__links {}
+.header__links {
+    margin-right: 47px;
+    margin-left: 142px;
+}
 
 .header__links-list {
     width: 100%;
-    max-width: 625px;
 
     display: flex;
     gap: 24px;
 
     list-style-type: none;
-
-    border: 1px solid red;
 }
 
 .header__links-list-item {}
@@ -55,6 +54,13 @@
     line-height: normal;
 
     text-decoration: none;
+
+    transition: color 0.3s linear;
+}
+
+.header__link:hover {
+    color: #F2BE22;
+    text-decoration: underline;
 }
 
 
@@ -62,36 +68,212 @@
 
 .button {
     width: 100%;
+    max-width: max-content;
 
-/*    display: block;*/
+    display: block;
 
     color: #FDFDFD;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
-/*    letter-spacing: 0.192px;*/
+    letter-spacing: 0.192px;
 
     text-decoration: none;
 
     margin: 0;
 
+    box-sizing: content-box;
+
     border-radius: 4px;
+    border: none;
     background-color: #1A3E3E;
+
+    transition: background-color 0.3s linear;
 }
 
 .button:hover {
-    color: #1A3E3E;
-    background-color: #FDFDFD;
-    border: 1px solid #1A3E3E;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .button_size_normal {
-    max-width: 157px;
-    padding: 12px 19px;
+    padding: 12px 24px;
 }
 
 .button_size_big {
-    max-width: 181px;
     padding: 16px 36px;
 }
 
+
+/* COVER */
+
+.cover {
+    width: 100%;
+    max-width: 1180px;
+    min-height: 897px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+}
+
+.cover__image {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 985px;
+
+    align-self: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover__title {
+    width: 100%;
+    max-width: 1080px;
+
+    color: #FDFDFD;
+    font-family: "NEXT ART", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+    margin-top: 463px;
+}
+
+.cover__form {
+    width: 100%;
+    max-width: 1180px;
+    min-height: 161px;
+
+    position: relative;
+    z-index: 1;
+
+    margin-top: 41px;
+
+    border-radius: 10px;
+    background-color: #FFF;
+    opacity: 0.2;
+}
+
+.cover__form-grid {
+    width: 100%;
+    max-width: 1095px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 270px) 213px;
+    grid-template-rows: repeat(2, 52px);
+    column-gap: 24px;
+    row-gap: 8px;
+
+    position: relative;
+    z-index: 2;
+
+    margin: -122px auto 0;
+}
+
+.form {}
+
+.form__label {
+    width: 100%;
+
+    display: block;
+
+    color: #FDFDFD;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.50;
+}
+
+.form__label_type_location {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.form__label_type_date {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.form__label_type_num-of-participants {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.form__item {
+    width: 270px;
+
+    color: #FDFDFD;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    background-color: inherit;
+
+    border-radius: 8px;
+    border: 1px solid #FDFDFD;
+
+    padding: 0 16px;
+}
+
+.form__item_type_select {
+    appearance: none;
+
+    background-image: url("images/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 16px top 16px;
+}
+
+.form__item_type_date  {
+    appearance: none;
+
+    background-image: url("images/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: right 16px top 16px;
+}
+
+.form__item_type_date::placeholder {
+    color: #FDFDFD;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.form__item_type_date::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.form__item_location {
+    grid-column: 1;
+}
+
+.form__item_date {
+    grid-column: 2;
+}
+
+.form__item_num-of-participants {
+    grid-column: 3;
+}
+
+.cover__button {
+    width: 100%;
+
+    color: #1A3E3E;
+    background-color: #FDFDFD;
+    border: 1px solid #1A3E3E;
+
+    box-sizing: content-box;
+
+    grid-column: 4;
+}

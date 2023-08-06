@@ -41,11 +41,50 @@
                 </ul>
             </nav>
 
-            <a class="button button_size_normal" href="#">Консультация</a>
+            <button class="button button_size_normal" type="button">Консультация</button>
         </header>
 
         <main class="content">
-            <section class="cover"></section>
+
+            <section class="cover">
+                <div class="cover__image"></div>
+
+                <h1 class="cover__title">
+                    Насладись прогулкой в горах с командой единомышленников
+                </h1>
+
+                <div class="cover__form"></div>
+
+                <form class="form cover__form-grid">
+
+                    <select class="form__item form__item_type_select form__item_location" id="location" name="tour-location">
+                        <option value="-">Локация для тура</option>
+                        <option value="location-1">Локация 1</option>
+                        <option value="location-2">Локация 2</option>
+                        <option value="location-3">Локация 3</option>
+                    </select>
+                    <label class="form__label form__label_type_location" for="location">
+                        выберите из списка
+                    </label>
+
+                    <input class="form__item form__item_type_date form__item_date" name="date" id="date" placeholder="Дата похода" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+                    <label class="form__label form__label_type_date" for="date">
+                        укажите диапазон
+                    </label>
+
+                    <select class="form__item form__item_type_select form__item_num-of-participants" id="num-of-participants" name="tour-location">
+                        <option value="-">Участники</option>
+                        <option value="4-6">4 - 6</option>
+                        <option value="7-10">7 - 10</option>
+                        <option value="11-15">11 - 15</option>
+                    </select>
+                    <label class="form__label form__label_type_num-of-participants" for="num-of-participants">
+                        минимум 4 человека
+                    </label>
+
+                    <button class="button button_size_big cover__button" type="button">Найти программу</button>
+                </form>
+            </section>
 
             <section class="about"></section>
 
@@ -62,5 +101,7 @@
 
         <footer class="footer"></footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
