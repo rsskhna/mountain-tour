@@ -1,5 +1,7 @@
 /*
 в мозиле появляется дефолтный значок календаря
+
+придумать как сдлеать более гибким overlay
 */
 
 .page {
@@ -30,15 +32,15 @@
 }
 
 .header__links {
-    margin-right: 47px;
-    margin-left: 142px;
+    margin-right: 50px;
+    margin-left: 214px;
 }
 
 .header__links-list {
     width: 100%;
 
     display: flex;
-    gap: 24px;
+    gap: 17px;
 
     list-style-type: none;
 }
@@ -47,7 +49,7 @@
 
 .header__link {
     color: #FDFDFD;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     line-height: normal;
 
@@ -116,7 +118,6 @@
 
 .cover__image {
     width: 100%;
-    max-width: 1920px;
     min-height: 985px;
 
     align-self: center;
@@ -304,3 +305,214 @@
 
     grid-column: 4;
 }
+
+
+/* ABOUT */
+
+.about {
+    width: 100%;
+    max-width: 1180px;
+    min-height: 526px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 100px auto 0;
+}
+
+.about__media-group {
+    width: 100%;
+    max-width: 480px;
+
+    position: relative;
+}
+
+.about__image {
+    width: 100%;
+    max-width: 350px;
+    min-height: 400px;
+
+    object-fit: contain;
+
+    border-radius: 24px;
+}
+
+.about__video {
+    width: 350px;
+    height: 400px;
+
+    object-fit: cover;
+    object-position: top;
+
+    position: absolute;
+    top: 126px;
+    left: 130px;
+    z-index: 2;
+
+    border-radius: 24px;
+}
+
+.about__description {
+    width: 100%;
+    max-width: 580px;
+    min-height: 398px;
+
+    align-self: center;
+}
+
+.section__title {
+    width: 100%;
+
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0.83;
+
+    margin-bottom: 8px;
+}
+
+.section__subtitle {
+    width: 100%;
+
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.2;
+
+    margin-bottom: 40px;
+}
+
+.section__text {
+    width: 100%;
+
+    color: #18121E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    margin-bottom: 40px;
+}
+
+
+/* OFFER */
+
+.offer {
+    width: 100%;
+    max-width: 1180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    overflow: visible;
+
+    margin: 180px auto 0;
+}
+
+.overlay {
+    width: 100vw;
+    min-height: 771px;
+
+    align-self: center;
+    position: absolute;
+    top: 1711px;
+    left: 0;
+
+    z-index: -1;
+
+    background-color: #F3F5F4;
+}
+
+.offer__description {
+    width: 100%;
+    max-width: 580px;
+}
+
+.offer__list {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    list-style-type: none;
+}
+
+.offer__list-item {
+    width: 100%;
+
+    display: flex;
+    gap: 16px;
+}
+
+.offer__point-icon {
+    width: 100%;
+    max-width: 50px;
+    min-height: 50px;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+.offer__point-description {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.offer__point-title {
+    width: 100%;
+
+    color: #18121E;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.216px;
+}
+
+.offer__point-text {
+    width: 100%;
+
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.offer__button {
+    margin-top: 40px;
+}
+
+.offer__photo-grid {
+    width: 100%;
+    max-width: 510px;
+    min-height: max-content;
+
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(2, min-content);
+    gap: 10px;
+
+    margin-top: 40px;
+}
+
+.offer__photo {
+    width: 250px;
+    height: 250px;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+.offer__photo_border-radius_tr-bl {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.offer__photo_border-radius_tl-br {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
