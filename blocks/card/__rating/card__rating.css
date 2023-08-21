@@ -1,0 +1,12 @@
+.card__rating {
+    width: 49px;
+    height: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: absolute;
+    top: 54px;
+    right: 8px;
+}

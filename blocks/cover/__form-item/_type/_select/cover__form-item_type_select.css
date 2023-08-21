@@ -1,0 +1,7 @@
+.cover__form-item_type_select {
+    appearance: none;
+
+    background-image: url("../../../../../images/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 16px top 16px;
+}

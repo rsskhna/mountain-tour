@@ -1,0 +1,27 @@
+.footer__copyright {
+    width: 100%;
+    max-width: 1180px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.footer__copyright::before {
+    content: "";
+
+    width: 100vw;
+    min-height: 66px;
+
+    align-self: center;
+    position: absolute;
+    top: 0;
+    left: calc((100vw - 1180px) / -2);
+
+    z-index: -1;
+
+    background-color: #18121E;
+}

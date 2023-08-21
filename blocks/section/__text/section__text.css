@@ -1,0 +1,10 @@
+.section__text {
+    width: 100%;
+
+    color: #18121E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    margin-bottom: 40px;
+}

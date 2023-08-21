@@ -1,0 +1,10 @@
+.about__image {
+    width: 100%;
+    max-width: 350px;
+    min-height: 400px;
+
+    object-fit: contain;
+    object-position: center;
+
+    border-radius: 24px;
+}

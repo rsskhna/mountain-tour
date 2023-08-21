@@ -1,0 +1,9 @@
+.post__image {
+    width: 230px;
+    height: 280px;
+
+    object-position: center;
+    object-fit: contain;
+
+    border-radius: 6px;
+}

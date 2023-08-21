@@ -1,0 +1,12 @@
+.offer__photo-grid {
+    width: 100%;
+    max-width: 510px;
+    min-height: max-content;
+
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    grid-template-rows: repeat(2, min-content);
+    gap: 10px;
+
+    margin-top: 40px;
+}

@@ -1,0 +1,9 @@
+.post__date {
+    width: 100%;
+    max-width: 76px;
+
+    color: #F2BE22;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42;
+}

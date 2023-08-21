@@ -1,0 +1,8 @@
+.card__rating-value {
+    width: 100%;
+
+    color: #1A3E3E;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.28;
+}

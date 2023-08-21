@@ -1,0 +1,13 @@
+.post__description {
+    width: 100%;
+    max-width: 294px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+    position: relative;
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+}

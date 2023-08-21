@@ -1,0 +1,8 @@
+.subscription__description {
+    width: 100%;
+    max-width: 380px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

@@ -1,0 +1,12 @@
+.subscription__link {
+    color: #18121E;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+
+    transition: color 0.3s linear;
+}
+
+.subscription__link:hover {
+    color: #F2BE22;
+}

@@ -1,0 +1,20 @@
+.cover__form-item {
+    width: 270px;
+
+    color: #FDFDFD;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+
+    background-color: inherit;
+
+    border-radius: 8px;
+    border: 1px solid #FDFDFD;
+
+    padding: 0 16px;
+}
+
+.cover__form-item:hover {
+    cursor: pointer;
+}

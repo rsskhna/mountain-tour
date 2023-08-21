@@ -1,0 +1,13 @@
+.card__price-overlay {
+    width: 86px;
+    height: 40px;
+
+    background-color: #FFF;
+    opacity: 0.3;
+
+    position: absolute;
+    top: 435px;
+    right: 32px;
+
+    border-radius: 4px;
+}

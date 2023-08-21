@@ -1,0 +1,47 @@
+.subscription__input-email {
+    width: 280px;
+    height: 44px;
+
+    display: block;
+
+    grid-column: 1/2;
+
+    padding: 0 16px;
+    align-items: center;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: #F3F5F4;
+}
+
+.subscription__input-email::placeholder {
+    color: #18121E;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42;
+}
+
+.form__item_type_email::-webkit-input-placeholder {
+    color: #18121E;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42;
+}
+
+.form__item_type_email::-moz-placeholder {
+    color: #18121E;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42;
+}
+.form__item_type_email::-ms-input-placeholder {
+    color: #18121E;
+    font-family: "NunitoSans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.42;
+}

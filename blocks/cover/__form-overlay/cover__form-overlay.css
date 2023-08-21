@@ -1,0 +1,17 @@
+.cover__form-overlay {
+    width: 100%;
+    max-width: 1180px;
+    min-height: 161px;
+
+    position: relative;
+    z-index: 1;
+
+    margin-top: 41px;
+
+    border-radius: 10px;
+    background-color: #FFF;
+    opacity: 0.2;
+
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}

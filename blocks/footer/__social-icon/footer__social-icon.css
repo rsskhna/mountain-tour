@@ -1,0 +1,13 @@
+.footer__social-icon {
+    width: 100%;
+    max-width: 32px;
+    min-height: 32px;
+
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+.footer__social-icon:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.offer {
+    width: 100%;
+    max-width: 1180px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: relative;
+
+    overflow: visible;
+
+    margin: 180px auto 0;
+}
+
+.offer::before {
+    content: "";
+
+    width: 100vw;
+    min-height: 771px;
+
+    align-self: center;
+    position: absolute;
+    top: -80px;
+    left: calc((100vw - 1180px) / -2);
+
+    z-index: -1;
+
+    background-color: #F3F5F4;
+}

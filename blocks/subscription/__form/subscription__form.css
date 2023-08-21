@@ -1,0 +1,8 @@
+.subscription__form {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 16px;
+    row-gap: 8px;
+}

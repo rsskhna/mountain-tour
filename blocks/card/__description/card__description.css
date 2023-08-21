@@ -1,0 +1,7 @@
+.card__description {
+    width: 100%;
+    max-width: 380px;
+    min-height: 90px;
+
+    padding-top: 410px;
+}

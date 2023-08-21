@@ -1,0 +1,12 @@
+.footer__links-list-item::before {
+    content: url("../../../images/arrow-icon-white.svg");
+    padding-right: 7px;
+}
+
+.footer__links-list-item:hover {
+    cursor: pointer;
+}
+
+.footer__links-list-item:hover.footer__links-list-item::before {
+    content: url("../../../images/arrow-icon-yellow.svg");
+}

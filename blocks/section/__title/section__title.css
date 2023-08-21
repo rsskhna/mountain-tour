@@ -1,0 +1,10 @@
+.section__title {
+    width: 100%;
+
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0.83;
+
+    margin-bottom: 8px;
+}

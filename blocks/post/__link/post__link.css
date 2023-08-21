@@ -1,0 +1,14 @@
+.post__link {
+    width: 100%;
+    max-width: max-content;
+
+    color: #1A3E3E;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42;
+    text-decoration: none;
+}
+
+.post:hover .post__link {
+    text-decoration: underline;
+}

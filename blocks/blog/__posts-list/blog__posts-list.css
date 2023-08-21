@@ -1,0 +1,12 @@
+.blog__posts-list {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 20px;
+    row-gap: 24px;
+
+    list-style-type: none;
+
+    margin-bottom: 50px;
+}

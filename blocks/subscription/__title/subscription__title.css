@@ -1,0 +1,9 @@
+.subscription__title {
+    width: 100%;
+    max-width: 87px;
+
+    color: #F2BE22;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.11;
+}

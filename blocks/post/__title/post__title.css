@@ -1,0 +1,13 @@
+.post__title {
+    width: 100%;
+
+    color: #18121E;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.post:hover .post__title {
+    text-decoration: underline;
+    color: #1A3E3E;
+}

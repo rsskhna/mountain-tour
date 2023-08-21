@@ -1,0 +1,28 @@
+.footer__info {
+    width: 100%;
+    max-width: 1180px;
+
+    display: flex;
+
+    position: relative;
+
+    padding: 178px 0 80px;
+
+    margin: 0 auto;
+}
+
+.footer__info::before {
+    content: "";
+
+    width: 100vw;
+    min-height: 587px;
+
+    align-self: center;
+    position: absolute;
+    top: 0;
+    left: calc((100vw - 1180px) / -2);
+
+    z-index: -1;
+
+    background-color: #1A3E3E;
+}

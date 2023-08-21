@@ -1,0 +1,11 @@
+.footer__section-title {
+    width: 100%;
+    max-width: max-content;
+
+    color: #F3F5F4;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}

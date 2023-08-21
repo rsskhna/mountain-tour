@@ -1,0 +1,14 @@
+.about__video {
+    width: 350px;
+    height: 400px;
+
+    object-fit: cover;
+    object-position: top;
+
+    position: absolute;
+    top: 126px;
+    left: 130px;
+    z-index: 2;
+
+    border-radius: 24px;
+}

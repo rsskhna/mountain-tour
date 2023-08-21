@@ -1,0 +1,12 @@
+.card__price {
+    width: max-content;
+
+    color: #FDFDFD;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    position: absolute;
+    top: 443px;
+    right: 48px;
+}

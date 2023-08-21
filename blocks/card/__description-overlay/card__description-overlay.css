@@ -1,0 +1,18 @@
+.card__description-overlay {
+    width: 100%;
+    max-width: 380px;
+    min-height: 90px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: #FFF;
+    opacity: 0.2;
+
+    backdrop-filter: blur(3px); /*!!!!!!*/
+    -webkit-backdrop-filter: blur(3px);
+
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}

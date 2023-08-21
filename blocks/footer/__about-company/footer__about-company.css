@@ -1,0 +1,9 @@
+.footer__about-company {
+    width: 100%;
+    max-width: 480px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 20px;
+}

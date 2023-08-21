@@ -1,0 +1,12 @@
+.rating__cards-list {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 12px;
+    margin-bottom: 49px;
+
+    list-style-type: none;
+}

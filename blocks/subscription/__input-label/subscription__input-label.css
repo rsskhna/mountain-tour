@@ -1,0 +1,10 @@
+.subscription__input-label {
+    display: block;
+
+    color: #18121E;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+
+    grid-column: 1;
+}

@@ -1,0 +1,15 @@
+.cover__form-grid {
+    width: 100%;
+    max-width: 1095px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 270px) 213px;
+    grid-template-rows: repeat(2, 52px);
+    column-gap: 24px;
+    row-gap: 8px;
+
+    position: relative;
+    z-index: 2;
+
+    margin: -122px auto 0;
+}
